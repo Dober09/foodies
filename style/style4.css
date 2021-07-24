@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, rgba(7, 85, 78, 0.781) ,rgba(80, 207, 207, 0.493) );
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container{
+    /* border: 1px solid black; */
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    /* border: 1px solid; */
+    padding: 20px 10px;
+    margin: 10px 0;
+    width: 100%;
+    position: relative;
+}
+
+header .back{
+    background-color: transparent;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 70px;
+    padding: 5px ;
+    text-align: center;
+      box-shadow: 1px 4px 5px rgb(14, 13, 13);
+}
+
+.back img{
+    height: 30px;
+    width: 30px;
+}
+
+
+header .title{
+    /* border: 1px solid black; */
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 30px;
+}
+
+.title h2{
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+header .main{
+    /* border: 1px solid; */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(12, 11, 11, 0.473);
+    box-shadow: 1px 4px 5px black;
+    border-radius: 3px;
+    padding: 4rem;
+
+}
+
+.main .form{
+    margin: 10px 0;
+    /* border: 1px solid; */
+    width: 150%;
+    display:  flex;
+    justify-content: space-between;
+}
+
+.form input{
+    border: none;
+    background-color: transparent;
+}
+
+.form input::placeholder{
+    color: rgba(255, 250, 250, 0.918);
+    font-size: .9rem;
+}
+
+.form input:focus{
+    outline: none;
+    border: none;
+}
+
+.form span{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(72, 235, 235, 0.815);
+    cursor: pointer;
+}
+
+section{
+    margin: 20px 0;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+section .hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 20px;
+    padding-left: 10px;
+}
+
+
+
+.hero .img{
+    padding: 10px;
+    background-color: rgba(253, 251, 251, 0.829);
+    box-shadow: 1px 4px 5px black;
+    width: 130px;
+    border-radius: 0 5px;
+}
+
+.hero .img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.hero .items p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.hero .price p{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero .price span{
+    font-size: 21px;
+    letter-spacing: 3px;
+}
+
+section .total{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.total p{
+    margin: 0 10px;
+    color: rgba(9, 92, 92, 0.815);
+    font-size: 2.5rem;
+}
+
+footer {
+    /* border: 1px solid; */
+    width: 100%;
+    margin-block-start: 100px ;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer .per{
+    border: 1px snow solid;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    background-color: rgba(12, 11, 11, 0.473);
+    border-radius: 3px ;
+}
+
+footer .pic{
+    width: 20px;
+    height: 20px;
+}
+
+footer .pic img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+footer .person{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 0;
+    text-transform: capitalize;
+    font-size:18px;
+}
+footer .num{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 100 ;
+}
+
+
+footer .check{
+    background-color:transparent;
+    margin: 40px 0 0;
+    padding: 15px 5px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer .check p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+
+footer img{
+    transform: rotateY(180deg);
+    height: 30px;
+    width: 30px;
+}

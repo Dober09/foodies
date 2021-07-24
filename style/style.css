@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, rgba(7, 85, 78, 0.781) ,rgba(80, 207, 207, 0.493) );
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero_head{
+    text-align: center;
+
+    padding: 10px 5px;
+    margin-bottom: 30px ;
+}
+
+
+.hero_img img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.hero_head h2{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+
+.hero_middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+    width: 150px;
+    border: none;
+    margin: 20px 10px;
+    padding: 10px 5px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.btn1{
+    color: snow;
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+.hero_foot{
+    border: 1px solid snow  ;
+    border-radius: 5px;
+    
+    height: 150px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.hero_left{
+    padding: 20px;
+    color: snow;
+}
+
+.hero_left h3{
+    width: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    text-transform: capitalize;
+}
+
+.hero_left p{
+    text-transform: capitalize;
+}
+
+.hero_right{
+    border-radius: 100px 0 0 50px ;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.hero_right img{
+    width: 90px;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* forms log in */
+.page{
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    position: absolute;
+}
+
+.login{
+    width: 320px;
+    height: 400px;
+    background:
+    linear-gradient(to left, rgba(0, 0, 0, 0.815), rgba(12, 11, 11, 0.801)) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.closebtn{
+    position: absolute;
+    align-self: flex-end;
+    top: 0;
+    margin: 19px;
+}
+
+.closebtn img{
+    cursor: pointer;
+    width: 20px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+    padding: 10px 5px;
+}
+
+.form-group{
+    margin: 10px 0;
+}
+
+.form-group input{
+    border: 1px solid transparent;
+    padding: 10px 5px;
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.form-group input:focus{
+    outline: none;
+}
+
+.checkpoint{
+    align-self: flex-end;
+    margin: 10px 0;
+}
+
+.checkpoint a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: snow;
+}
+
+.submit{
+    align-self:center ;
+    width:inherit;
+}
+
+
+.submit button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    font-size: 19px;
+    color: snow;
+    background-color: transparent;
+    border: 1px snow solid;
+    border-radius: 5px;
+    padding:  10px 8px;
+    width: 150px;
+    margin: 10px 0;
+    
+}
+
+.submit button:hover{
+    background-color: snow;
+    color: black;
+}
+
+
+.signup{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, rgba(46, 42, 42, 0.555), rgba(26, 23, 23, 0.123));
+    position: relative;
+    /* visibility: hidden; */
+}
+
+.signup form{
+    padding: 50px;
+}
+.signup .check{
+    text-align: right;
+}
+
+
+.signup .submit{
+    align-self: center;
+}
